@@ -44,3 +44,28 @@
 // playlist.rating = 10;
 
 // console.log(playlist);
+
+// const a = { x: 1, y: 2 };
+// const b = { x: 0, z: 3 };
+
+// const c = Object.assign({}, a, b);
+
+// //современный способ
+// const c = {
+//   ...a,
+//   ...b,
+// };
+// console.log(c);
+
+// const developers = {
+//   ann: 29,
+//   david: 35,
+//   helen: 1,
+//   lorence: 99,
+// };
+
+// // const { ann, david } = developers;
+// // console.log(ann, david);
+
+// const { ann, avid, helen, lorence: x = 0 } = developers;
+// console.log(x);
