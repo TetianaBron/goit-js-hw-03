@@ -25,7 +25,7 @@
 //   { name: 'Захват', price: 1200, quantity: 2 },
 // ];
 
-// console.log(calculateTotalPrice(products, и ));
+// console.log(calculateTotalPrice(products, 'Радар'));
 // //  9080
 
 // console.log(calculateTotalPrice(products, 'Сканер'));

@@ -34,6 +34,20 @@
 //   return result;
 // };
 
+//3  вариант решения
+// const findBestEmployee = function (employees) {
+//   const arrWorkers = Object.entries(employees);
+//   const taskWorker = Object.values(employees);
+//   const niceWorker = Math.max(...taskWorker);
+//   let result = '';
+//   for (let i = 0; i < arrWorkers.length; i += 1) {
+//     if (taskWorker[i] === niceWorker) {
+//       result += Object.keys(employees)[i];
+//     }
+//   }
+//   return result;
+// };
+
 // // Объекты и ожидаемый результат
 // const developers = {
 //   ann: 29,
