@@ -42,13 +42,26 @@
 //   let result = '';
 //   for (let i = 0; i < arrWorkers.length; i += 1) {
 //     if (taskWorker[i] === niceWorker) {
-//       result += Object.keys(employees)[i];
+//       result = Object.keys(employees)[i];
 //     }
 //   }
 //   return result;
 // };
 
-// // Объекты и ожидаемый результат
+//4  вариант решения
+// const findBestEmployee = function (employees) {
+//   const maxWork = Math.max(...Object.values(employees));
+//   const keys = Object.keys(employees);
+//   let message = '';
+//   for (const key of keys) {
+//     if (maxWork === employees[key]) {
+//       message = key;
+//     }
+//   }
+//   return message;
+// };
+
+// Объекты и ожидаемый результат
 // const developers = {
 //   ann: 29,
 //   david: 35,
